@@ -17,32 +17,32 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 18 95% 60%;
+    --primary: 25 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 9% 46%;
+    --secondary: 210 11% 31%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted-foreground: 210 11% 31%;
 
-    --accent: 18 95% 60%;
+    --accent: 25 100% 50%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 354 70% 54%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 18 95% 60%;
+    --ring: 25 100% 50%;
 
     /* Road Rescue Brand Colors */
-    --brand-orange: 18 95% 60%;
-    --brand-orange-light: 18 85% 70%;
-    --brand-orange-dark: 18 95% 50%;
-    --brand-red: 0 84% 60%;
-    --brand-blue: 215 25% 27%;
-    --brand-gray: 220 9% 46%;
+    --brand-orange: 25 100% 50%;
+    --brand-orange-light: 25 100% 65%;
+    --brand-orange-dark: 25 100% 40%;
+    --brand-red: 354 70% 54%;
+    --brand-blue: 210 11% 31%;
+    --brand-gray: 210 11% 31%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--brand-orange)) 0%, hsl(var(--brand-red)) 100%);
@@ -50,7 +50,7 @@ All colors MUST be HSL.
     
     /* Shadows */
     --shadow-brand: 0 10px 30px -10px hsl(var(--brand-orange) / 0.3);
-    --shadow-card: 0 4px 20px -4px hsl(220 9% 46% / 0.1);
+    --shadow-card: 0 4px 20px -4px hsl(210 11% 31% / 0.1);
 
     --radius: 0.5rem;
 

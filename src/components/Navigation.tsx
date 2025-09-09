@@ -28,7 +28,7 @@ const Navigation = () => {
           <Button variant="ghost" className="hidden sm:inline-flex">
             Sign In
           </Button>
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-brand">
+          <Button className="bg-destructive hover:bg-destructive/90 text-destructive-foreground shadow-brand">
             Download App
           </Button>
         </div>
