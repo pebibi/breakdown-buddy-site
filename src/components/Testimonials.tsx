@@ -4,21 +4,21 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Jan Dale Topacio",
       role: "Daily Commuter",
       content: "Road Rescue saved me when my car broke down on the highway. Found a mechanic in minutes and was back on the road in no time!",
       rating: 5,
-      avatar: "SJ"
+      avatar: "JD"
     },
     {
-      name: "Mike Chen", 
+      name: "Paulo Rodriguez", 
       role: "Truck Driver",
       content: "The app is a game-changer for professional drivers. Reliable, fast, and the mechanics are always top-notch.",
       rating: 5,
-      avatar: "MC"
+      avatar: "PR"
     },
     {
-      name: "Emma Rodriguez",
+      name: "Elaine Rose Ponce",
       role: "Small Business Owner", 
       content: "I run a delivery business and Road Rescue keeps my fleet moving. The parts ordering feature is incredibly convenient.",
       rating: 5,
