@@ -4,18 +4,18 @@ const HowItWorks = () => {
   const steps = [
     {
       step: "1",
-      title: "Report Your Issue",
-      description: "Quickly describe your vehicle problem using our smart diagnostic tool or take a photo."
-    },
-    {
-      step: "2", 
       title: "Find Nearby Help",
       description: "Get matched with certified repair shops and mobile mechanics in your area instantly."
     },
     {
-      step: "3",
-      title: "Book & Pay Securely", 
+      step: "2", 
+      title: "Book & Pay Securely",
       description: "Choose your service, schedule an appointment, and pay safely through the app."
+    },
+    {
+      step: "3",
+      title: "Get Help & Track Progress", 
+      description: "Receive real-time updates and track your mechanic's arrival and repair progress."
     }
   ];
 
