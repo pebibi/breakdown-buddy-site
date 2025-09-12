@@ -12,7 +12,7 @@ const Testimonials = () => {
     },
     {
       name: "Paulo Rodriguez", 
-      role: "Truck Driver",
+      role: "Driver",
       content: "The app is a game-changer for professional drivers. Reliable, fast, and the mechanics are always top-notch.",
       rating: 5,
       avatar: "PR"
