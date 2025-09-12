@@ -31,7 +31,7 @@ const Features = () => {
     {
       icon: Smartphone,
       title: "Easy Booking",
-      description: "Schedule appointments, track progress, and pay seamlessly through the app."
+      description: "Easy Booking of Services"
     }
   ];
 
