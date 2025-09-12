@@ -1,37 +1,47 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { MapPin, ShoppingCart, Clock, Shield, Users, Smartphone } from "lucide-react";
+import { Truck, Zap, Wrench, Fuel, KeyRound, Settings, Clock, Shield } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: MapPin,
-      title: "Find Nearby Shops",
-      description: "Locate trusted repair shops within minutes based on your location and specific needs."
+      icon: Truck,
+      title: "Towing Services",
+      description: "Professional towing for vehicles that can't be repaired on-site. Safe transport to your preferred destination."
     },
     {
-      icon: ShoppingCart,
-      title: "Order Parts & Services",
-      description: "Browse and purchase genuine parts and professional services directly through the app."
+      icon: Zap,
+      title: "Jump-Starts",
+      description: "Dead battery? Get a quick jump-start to get your vehicle running again in minutes."
+    },
+    {
+      icon: Wrench,
+      title: "Tire Changes",
+      description: "Flat tire replacement service with professional tools and expertise for your safety."
+    },
+    {
+      icon: Fuel,
+      title: "Fuel Delivery",
+      description: "Ran out of gas? We'll deliver fuel directly to your location so you can continue your journey."
+    },
+    {
+      icon: KeyRound,
+      title: "Lockout Service",
+      description: "Locked out of your vehicle? Our experts will safely unlock your car without damage."
+    },
+    {
+      icon: Settings,
+      title: "Minor Mechanical Repairs",
+      description: "On-site repairs for common issues to get you back on the road quickly and safely."
     },
     {
       icon: Clock,
-      title: "24/7 Emergency Support",
-      description: "Get help anytime, anywhere with our round-the-clock emergency roadside assistance."
+      title: "24/7 Availability",
+      description: "Round-the-clock emergency support through our mobile app or hotline whenever you need help."
     },
     {
       icon: Shield,
-      title: "Verified Mechanics",
-      description: "All repair shops are thoroughly vetted and certified to ensure quality service."
-    },
-    {
-      icon: Users,
-      title: "Real Reviews",
-      description: "Read authentic reviews from fellow drivers to make informed decisions."
-    },
-    {
-      icon: Smartphone,
-      title: "Easy Booking of Services",
-      description: "Book emergency repair services within minutes when you need help most."
+      title: "Verified Responders",
+      description: "All service providers are thoroughly trained, verified, and trackable for your peace of mind."
     }
   ];
 
