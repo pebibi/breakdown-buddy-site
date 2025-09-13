@@ -24,7 +24,7 @@ const Pricing = () => {
       icon: Calendar,
       title: "Monthly Subscription",
       description: "Best value for regular drivers",
-      price: "Starting at $9.99/month",
+      price: "₱50/month or ₱365/year",
       features: [
         "Unlimited or discounted services",
         "Priority response times",
