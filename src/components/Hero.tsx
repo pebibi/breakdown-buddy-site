@@ -29,7 +29,7 @@ const Hero = () => {
               <Download className="mr-2 h-5 w-5" />
               Download for iOS
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-destructive text-lg px-8 py-6">
+            <Button size="lg" variant="outline" className="bg-white text-destructive hover:bg-white/90 shadow-brand text-lg px-8 py-6">
               <Play className="mr-2 h-5 w-5" />
               Download for Android
             </Button>
