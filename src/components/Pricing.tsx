@@ -6,33 +6,33 @@ import { Check, CreditCard, Calendar } from "lucide-react";
 const Pricing = () => {
   const plans = [
     {
-      icon: CreditCard,
-      title: "Pay-Per-Use",
-      description: "Perfect for occasional drivers",
-      price: "No monthly fee",
+      icon: Calendar,
+      title: "Monthly Subscription",
+      description: "Flexible monthly billing",
+      price: "₱50/month",
       features: [
-        "Pay only when you need service",
-        "Transparent upfront pricing",
-        "All services available",
-        "24/7 emergency support",
-        "Mobile app access"
+        "Unlimited service calls",
+        "Priority response times",
+        "Premium customer support",
+        "Mobile app access",
+        "24/7 emergency support"
       ],
-      cta: "Get Started",
+      cta: "Start Monthly",
       popular: false
     },
     {
-      icon: Calendar,
-      title: "Monthly Subscription",
-      description: "Best value for regular drivers",
-      price: "₱50/month or ₱365/year",
+      icon: CreditCard,
+      title: "Yearly Subscription",
+      description: "Best value - Save 39%",
+      price: "₱365/year",
       features: [
-        "Unlimited or discounted services",
-        "Priority response times",
+        "All monthly features included",
+        "Fastest priority response",
         "Premium customer support",
         "Advanced app features",
         "Family plan options available"
       ],
-      cta: "Choose Plan",
+      cta: "Choose Yearly",
       popular: true
     }
   ];
