@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-1 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/ee1e5750-ee6a-4166-bbf9-b7447feb3062.png" 
+            src="/lovable-uploads/logo.png" 
             alt="Road Rescue Logo" 
-            className="h-10 w-auto"
+            className="h-20 w-auto"
           />
         </div>
         
