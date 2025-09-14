@@ -6,34 +6,48 @@ import { Check, CreditCard, Calendar } from "lucide-react";
 const Pricing = () => {
   const plans = [
     {
+      icon: CreditCard,
+      title: "Pay-Per-Use",
+      description: "Perfect for occasional drivers",
+      price: "No monthly fee",
+      features: [
+        "Pay only when you need service",
+        "Transparent upfront pricing",
+        "All services available",
+        "Mobile app access",
+        "24/7 emergency support"
+      ],
+      cta: "Get Started",
+      popular: false
+    },
+    {
       icon: Calendar,
       title: "Monthly Subscription",
       description: "Flexible monthly billing",
       price: "₱50/month",
       features: [
-        "Unlimited service calls",
+        "All monthly features included",
         "Priority response times",
         "Premium customer support",
         "Mobile app access",
         "24/7 emergency support"
       ],
       cta: "Start Monthly",
-      popular: false
+      popular: true
     },
     {
-      icon: CreditCard,
+      icon: Calendar,
       title: "Yearly Subscription",
       description: "Best value - Save 39%",
       price: "₱365/year",
       features: [
         "All monthly features included",
-        "Fastest priority response",
+        "Priority response times",
         "Premium customer support",
         "Advanced app features",
-        "Family plan options available"
+        "24/7 emergency support"
       ],
       cta: "Choose Yearly",
-      popular: true
     }
   ];
 
@@ -52,7 +66,7 @@ const Pricing = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
             <Card 
               key={index} 
